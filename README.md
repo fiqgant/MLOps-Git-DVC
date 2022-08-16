@@ -5,11 +5,13 @@
 ### DVC
 
 1. Create Folder on Google Drive
+    ![](https://raw.githubusercontent.com/fiqgant/MLOps-Git-DVC/main/Images/create_folder.png)
 
 2. Init the DVC
     ``` bash
     dvc init
     ```
+    ![](https://raw.githubusercontent.com/fiqgant/MLOps-Git-DVC/main/Images/dvc_init.png)
 
 3. add remote dvc
     ``` bash
@@ -27,11 +29,15 @@
     ``` bash
     python get_data.py
     ```
+    ![](https://raw.githubusercontent.com/fiqgant/MLOps-Git-DVC/main/Images/get_data.py.png)
+
 
 6. add dvc
    ``` bash
    dvc add data.csv
    ```
+    ![](https://raw.githubusercontent.com/fiqgant/MLOps-Git-DVC/main/Images/dvc_add.png)
+    ![](https://raw.githubusercontent.com/fiqgant/MLOps-Git-DVC/main/Images/dvc_csv.png)
 
 7. Start Tracking Data
    ``` bash
@@ -39,6 +45,7 @@
    git commit -m "tracking data"
    git push
    ```
+    ![](https://raw.githubusercontent.com/fiqgant/MLOps-Git-DVC/main/Images/tracking%20data.png)
 
 8. push dvc
    ``` bash
