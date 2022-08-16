@@ -22,3 +22,30 @@
     git commit -m "first commit"
     git push
     ```
+
+5. get dataset
+    ``` bash
+    python get_data.py
+    ```
+
+6. add dvc
+   ``` bash
+   dvc add data.csv
+   ```
+
+7. Start Tracking Data
+   ``` bash
+   git add data.csv.dvc .gitignore
+   git commit -m "tracking data"
+   git push
+   ```
+
+8. push dvc
+   ``` bash
+   dvc push
+   ```
+
+### Download dataset with DVC
+``` bash
+dvc pull data.csv
+```
