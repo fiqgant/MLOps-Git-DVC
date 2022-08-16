@@ -1,1 +1,3 @@
-# MLOps-Git-DVC
+# MLOps Git+DVC
+
+## When data is too big for Git
